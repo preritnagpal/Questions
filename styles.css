@@ -1,0 +1,165 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.heading{
+    display: grid;
+    place-items: center;
+}
+h3{
+    font-size: 50px;
+    font-style: italic;
+    color: goldenrod;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+}
+.text{
+    background: white;
+    max-width: 900px;
+    width: 90vw;
+    max-height: 900px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+}
+.qone{
+    background: white;
+    max-width: 700px;
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px;
+}
+.qone i{
+    font-size: 30px;
+    padding-right: 2rem;
+}
+h4{
+    font-size: 30px;
+    padding: 2rem;
+}
+.ansone{
+    background: white;
+    max-width: 700px;
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    position: absolute;
+    top: 33.5%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px;
+    visibility: hidden;
+    z-index: -10;
+}
+.openansone{
+    visibility: visible;
+    z-index: 10;
+}
+p{
+    font-size: 20px;
+    padding: 1rem;
+    text-align: justify;
+}
+.qtwo{
+    background: white;
+    max-width: 700px;
+    width: 80vw;
+    height: 10vh;
+    position: absolute;
+    top:40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px;
+}
+.qtwo i{
+    font-size: 30px;
+    padding-right: 2rem;
+}
+.anstwo{
+    background: white;
+    max-width: 700px;
+    width: 80vw;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    position: relative;
+    top: 52%;
+    box-shadow: 2px 2px 2px 2px;
+    visibility: hidden;
+    z-index: -10;
+}
+.openanstwo{
+    visibility: visible;
+    z-index: 10;
+}
+
+.qthree{
+    background: white;
+    max-width: 700px;
+    width: 80vw;
+    height: 10vh;
+    position: absolute;
+    top:58%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px;
+}
+.qthree i{
+    font-size: 30px;
+    padding-right: 2rem;
+}
+.ansthree{
+    background: white;
+    max-width: 700px;
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    position: absolute;
+    top: 69%;
+    box-shadow: 2px 2px 2px 2px;
+    visibility: hidden;
+    z-index: -10;
+}
+.openansthree{
+    visibility: visible;
+    z-index: 10;
+}
+
+
+@media (min-width: 800px){
+    .ansone{
+        height: 29vh;
+        top: 33%;
+    }
+    .anstwo{
+        height: 29vh;
+        top: 58.5%;
+    }
+    .ansthree{
+        height: 29vh;
+        top: 68.5%;
+    }
+    p{
+        font-size: 25px;
+    }
+}
